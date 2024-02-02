@@ -1,0 +1,13 @@
+﻿  template.cpp
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\day1_2\day1_2\template.cpp(21,13): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\day1_2\day1_2\template.cpp(21,13):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\day1_2\day1_2\template.cpp(34,5):
+  	컴파일되는 함수 템플릿 인스턴스화 'T distance<int>(T,T)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\day1_2\day1_2\template.cpp(16): error C4716: 'swapdata<int>': 값을 반환해야 합니다.
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\day1_2\day1_2\template.cpp(16): error C4716: 'swapdata<char>': 값을 반환해야 합니다.
