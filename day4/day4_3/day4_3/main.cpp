@@ -59,4 +59,10 @@ int main() {
 	a1[5] = 1000;
 	cout << "a1[5]: " << a1[5] << endl;
 
+	Array a4 = a1 + a3;
+
+	Array a5 = a1 + a2;
+
+	cout << "a4: " << a4 << endl;
+	cout << "a5: " << a5 << endl;
 }

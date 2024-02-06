@@ -126,3 +126,22 @@ istream& operator>>(istream& input, Array& a) {
 	}
 	return input;
 }
+
+// 배열의 각 원소끼리 더하는 연산자
+Array operator+(const Array& a, const Array& b) {
+	// 두 배열의 크기가 다르다면 더하지 않음.
+	if (a.size != b.size) {
+		cout << "Error: different size." << endl;
+		return Array(); // 빈 배열 반환
+	}
+	else {
+		Array sum(a.size); // 두 배열을 더한 결과를 저장할 새로운 배열 생성
+		cout << sum;
+		for (int i = 0; i < a.size; i++) {
+			cout << i << endl;
+			sum[i] = a[i] + b[i];
+			cout << sum[i] << endl;
+		}
+		return sum;
+	}
+}

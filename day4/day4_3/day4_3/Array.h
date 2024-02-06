@@ -17,7 +17,7 @@ class Array {
 	
 	// 같은 이유로 밑의 멤버 함수들을 다른 연산자들을 전역 함수로 선언할 수 있다.
 #pragma endregion
-	friend Array& operator+(const Array&, const Array&);
+	friend Array operator+(const Array&, const Array&);
 
 public:
 	Array(int = 10);
