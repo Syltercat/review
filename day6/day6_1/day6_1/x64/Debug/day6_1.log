@@ -1,0 +1,73 @@
+﻿  main.cpp
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(25,1): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(25,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(33,2):
+  	컴파일되는 클래스 템플릿 인스턴스화 'ArrayStack<T>'에 대한 참조를 확인하세요.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(26,1): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(27,1): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(53,59): warning C5043: 'ArrayStack<T>::top': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(25,11):
+  'ArrayStack<T>::top' 선언을 참조하십시오.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(64,61): warning C5043: 'ArrayStack<T>::push': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(26,7):
+  'ArrayStack<T>::push' 선언을 참조하십시오.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(82,49): warning C5043: 'ArrayStack<T>::pop': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(27,7):
+  'ArrayStack<T>::pop' 선언을 참조하십시오.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(53,59): warning C5043: 'ArrayStack<int>::top': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(25,11):
+  'ArrayStack<int>::top' 선언을 참조하십시오.
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(53,59):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\main.cpp(27,18):
+  	컴파일되는 클래스 템플릿 인스턴스화 'ArrayStack<int>'에 대한 참조를 확인하세요.
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(53,59):
+  	클래스 템플릿 멤버 함수 'const T &ArrayStack<T>::top(void) throw(StackEmpty) const'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\main.cpp(32,24):
+  		'main'에서 'ArrayStack<int>::top'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(64,61): warning C5043: 'ArrayStack<int>::push': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(26,7):
+  'ArrayStack<int>::push' 선언을 참조하십시오.
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(64,61):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(64,61):
+  	클래스 템플릿 멤버 함수 'void ArrayStack<int>::push(const T &) throw(StackFull)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=int
+          ]
+  		C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\main.cpp(30,14):
+  		'main'에서 'ArrayStack<int>::push'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(82,49): warning C5043: 'ArrayStack<int>::pop': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(27,7):
+  'ArrayStack<int>::pop' 선언을 참조하십시오.
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(82,49):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\ArrayStack.h(82,49):
+  	클래스 템플릿 멤버 함수 'void ArrayStack<int>::pop(void) throw(StackEmpty)'을(를) 컴파일하는 중입니다.
+  		C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\day6_1\main.cpp(34,13):
+  		'main'에서 'ArrayStack<int>::pop'에 대한 첫 번째 참조를 확인하세요.
+  
+  day6_1.vcxproj -> C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day6\day6_1\x64\Debug\day6_1.exe
