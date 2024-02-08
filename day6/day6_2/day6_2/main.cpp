@@ -14,6 +14,9 @@ day6_1에서 작성했던 배열 스택을 이용하여 괄호 매칭 코드를 작성할 것이다.
 1. close 괄호를 만났으나 stack의 top의 괄호와 짝이 맞지 않는 경우
 2. close 괄호를 만났으나 stack이 비어있는 경우
 3. 문자열을 끝까지 조사했으나 stack에 괄호가 남은 경우
+
+추가로 생각해볼 수 있는 것
+	- close 괄호로 식이 시작하면 어떠한 과정을 거칠 필요없이 바로 false를 출력하여 수행 시간을 단축시킬 수 있다.
 */
 
 #include <iostream>
@@ -43,6 +46,13 @@ int main() {
 
 	// 검사
 	for (int i = 0; arr[i] != '\0'; i++) {
+		// stack이 비었는데 close 괄호가 오는 경우 => false
+		if (mystack.empty()) {
+			if ((arr[i] == ')' || arr[i] == '}' || arr[i] == ']')) {
+				cout << "틀린 괄호 매칭입니다.\n";
+				return 0;
+			}
+		}
 		// open 괄호를 만나는 경우 => push
 		if (arr[i] == '(' || arr[i] == '{' || arr[i] == '[') {
 			mystack.push(arr[i]);
@@ -64,6 +74,20 @@ int main() {
 					cout << "틀린 괄호 매칭입니다.\n";
 					return 0;
 				}
+
+				// +) key가 없는 경우를 대비한 end() 반복자 처리
+				/*
+				이 코드에서는 close 괄호만을 받을 경우를 조건문으로 한정했기 때문에 상관은 없으나
+				원래 find를 사용할 때 key가 없는 경우를 대비해야 견고한 코드를 짤 수 있다.
+
+				따라서 견고한 코드를 만들기 위해 end() 반복자가 아닌지 확인하기 위해 코드를 수정하면 아래와 같다.
+				
+				auto it = bucket.find(arr[i]);
+				if (it != bucket.end() && it->second != mystack.top()) {
+					cout << "틀린 괄호 매칭입니다.\n";
+					return 0;
+				}
+				*/
 
 				// 짝에 맞는 open 괄호인 경우
 				else {
