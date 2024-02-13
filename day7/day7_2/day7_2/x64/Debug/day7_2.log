@@ -1,0 +1,74 @@
+﻿  Postfix Notation.cpp
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(21,1): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+  (소스 파일 'Postfix%20Notation.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(21,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(29,2):
+  	컴파일되는 클래스 템플릿 인스턴스화 'ArrayStack<T>'에 대한 참조를 확인하세요.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(22,1): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+  (소스 파일 'Postfix%20Notation.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(23,1): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+  (소스 파일 'Postfix%20Notation.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(45,59): warning C5043: 'ArrayStack<T>::top': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'Postfix%20Notation.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(21,11):
+  'ArrayStack<T>::top' 선언을 참조하십시오.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(53,61): warning C5043: 'ArrayStack<T>::push': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'Postfix%20Notation.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(22,7):
+  'ArrayStack<T>::push' 선언을 참조하십시오.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(63,49): warning C5043: 'ArrayStack<T>::pop': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'Postfix%20Notation.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(23,7):
+  'ArrayStack<T>::pop' 선언을 참조하십시오.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(45,59): warning C5043: 'ArrayStack<char>::top': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'Postfix%20Notation.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(21,11):
+  'ArrayStack<char>::top' 선언을 참조하십시오.
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(45,59):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\Postfix Notation.cpp(88,19):
+  	컴파일되는 클래스 템플릿 인스턴스화 'ArrayStack<char>'에 대한 참조를 확인하세요.
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(45,59):
+  	클래스 템플릿 멤버 함수 'const T &ArrayStack<T>::top(void) throw(StackEmpty) const'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=char
+          ]
+  		C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\Postfix Notation.cpp(120,5):
+  		'main'에서 'ArrayStack<char>::top'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(53,61): warning C5043: 'ArrayStack<char>::push': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'Postfix%20Notation.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(22,7):
+  'ArrayStack<char>::push' 선언을 참조하십시오.
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(53,61):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(53,61):
+  	클래스 템플릿 멤버 함수 'void ArrayStack<char>::push(const T &) throw(StackFull)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=char
+          ]
+  		C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\Postfix Notation.cpp(115,17):
+  		'main'에서 'ArrayStack<char>::push'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(63,49): warning C5043: 'ArrayStack<char>::pop': 예외 사양이 이전 선언과 일치하지 않습니다.
+  (소스 파일 'Postfix%20Notation.cpp'을(를) 컴파일하는 중)
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(23,7):
+  'ArrayStack<char>::pop' 선언을 참조하십시오.
+  C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(63,49):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\ArrayStack.h(63,49):
+  	클래스 템플릿 멤버 함수 'void ArrayStack<char>::pop(void) throw(StackEmpty)'을(를) 컴파일하는 중입니다.
+  		C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\Postfix Notation.cpp(126,17):
+  		'main'에서 'ArrayStack<char>::pop'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\day7_2\Postfix Notation.cpp(203): warning C4715: 'priority': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  day7_2.vcxproj -> C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day7\day7_2\x64\Debug\day7_2.exe
