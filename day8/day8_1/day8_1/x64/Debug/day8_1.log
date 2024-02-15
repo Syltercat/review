@@ -1,2 +1,5 @@
-﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day8\day8_1\x64\Debug\day8_1.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+﻿  main.cpp
+C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day8\day8_1\day8_1\ArrayVector.h(19,38): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+  day8_1.vcxproj -> C:\Users\gaeun\OneDrive\바탕 화면\쥬신\개인\학교 복습\review\day8\day8_1\x64\Debug\day8_1.exe
